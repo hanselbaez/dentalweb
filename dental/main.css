@@ -1,0 +1,693 @@
+body, html {
+    height: 100%;
+    background: white;
+}
+
+
+/*HEADER*/
+
+.header-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
+
+/*Nav*/
+.navbar {
+    min-height: 80px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-logo {
+    width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-logo {
+      width: 150px;
+    }
+  }
+
+
+/*Button*/
+
+button {
+    height: 40px;
+    min-width: 130px;
+    background-color: transparent;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 5px;
+    transition: 0.4s ease;
+    color: rgb(105, 105, 105);
+}
+
+@media only screen and (max-width: 768px) {
+    .button-services {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+  }
+
+button:hover {
+    background-color: #0179c3;
+    transition: 0.4s ease;
+    color: white;
+    border: none;
+}
+
+.button-blue {
+    background-color: transparent;
+    border: 1px solid rgb(0, 80, 201);
+    border-radius: 5px;
+    transition: 0.4s ease;
+    color: rgb(0, 80, 201);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-blue {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+  }
+
+.button-green {
+    background-color: transparent;
+    border: 1px solid rgb(0, 146, 12);
+    border-radius: 5px;
+    transition: 0.4s ease;
+    color: rgb(0, 146, 12);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-green {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+  }
+
+.button-offer {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.button-offer:hover {
+    background-color: white;
+    border:none;
+    transition: 0.4s ease;
+    color: rgb(89, 185, 105);
+
+}
+
+
+
+
+.button-orange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-color: rgb(255, 97, 40);
+    color: white;
+    border: none;
+    height: 50px;
+
+  }
+
+
+/*Text*/
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(95, 95, 95);
+}
+
+@media only screen and (max-width: 768px) {
+    h2{
+        text-align: center;
+
+      
+    }
+  }
+
+h3 {
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(95, 95, 95);
+}
+
+@media only screen and (max-width: 768px) {
+    h3 {
+      text-align: center;
+    }
+  }
+
+.h3-offer {
+
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+h4 {
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(95, 95, 95);
+}
+
+.h4-footer {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .h4-footer{
+        text-align: center;
+
+      
+    }
+  }
+
+.h4-card {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .h4-card {
+      text-align: center;
+    }
+  }
+
+p {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        text-align: center;
+
+      
+    }
+  }
+
+.p-header {
+
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 60%;
+    margin: auto;
+}
+
+.sections {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-contact {
+      width: 100%;
+    }
+  }
+
+.section-brands {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.section-right {
+    border-left: 1px solid rgb(214, 214, 214);
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .section-right {
+      border-left: none;
+      padding-left: 15px;
+    }
+  }
+
+.link-float {
+    position: absolute;
+    float: right;
+    text-align: right;
+    right: 0;
+    left: auto;
+    width: auto;
+    padding-top: 10px;
+    color: rgb(99, 99, 99);
+
+}
+
+@media only screen and (max-width: 768px) {
+    .link-float {
+      display: none;
+    }
+  }
+
+  .resp-button {
+      width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .resp-button {
+      display: none;
+      
+    }
+  }
+
+.text-card {
+    padding: 30px;
+}
+
+
+.card-1 {
+    background-color: rgb(89, 185, 105);
+    width: 100%;
+    height: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card-1-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+
+    
+}
+
+.card-2 {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    min-height: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s ease;
+    position: relative;
+    
+}
+
+.card-2:hover {
+    box-shadow: 0px 0px 26px 10px rgba(0, 0, 0, 0.199);
+    transition: 0.2s ease;
+}
+
+.card-services {
+    border-radius: 4px;
+    border: 1px solid rgb(211, 211, 211);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+}
+
+.card-imanology {
+    height: auto;
+    width: 100%;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-imanology {
+    padding-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-imanology{
+      width: 100%;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+    }
+  }
+
+.imanology-img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imanology-img {
+      position: relative;
+      display: block;
+      margin: auto;
+      padding-top: 10px;
+      
+    }
+  }
+
+.li-services {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .li-services {
+      text-align: left;
+      
+    }
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 20%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .center2 {
+      min-width: 70%;
+    }
+  }
+
+  .services-section {
+      width: 100%;
+      min-height: 500px;
+      background-image: url(assets/bg-servicios.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .services-section2 {
+    width: 100%;
+    min-height: 500px;
+    background-image: url(assets/bg-spa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.insurance-logo {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .insurance-logo {
+      width: 60%;
+      margin: auto;
+      display: block;
+      
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    .disappear-responsive {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .only-responsive {
+      display: none;
+    }
+  }
+
+  footer {
+      background-image: url(assets/footer.png);
+      width: 100%;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 500px;
+      padding-bottom: 60px;
+  }
+
+  .logo-footer {
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+      margin-top: 80px;
+      margin-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .logo-footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding-top: 80px;
+        padding-top: 80px;
+    }
+  }
+
+  .fas {
+      font-size: 1.2rem;
+      font-family: 'Raleway', sans-serif;
+      padding-left: 10px;
+      color: white;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .fas {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-left: 0;
+    }
+  }
+
+  .links-footer {
+      text-decoration: underline;
+      color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .links-footer{
+        text-align: center;
+        display: block;
+        width: 100%;
+        
+    }
+  }
+
+  .fas2 {
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .fas2{
+        font-size: 1.5rem;
+        width: 100%;
+
+      
+    }
+  }
+
+.fas4 {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.fas2:hover {
+    text-decoration: underline;
+}
+
+.fas3 {
+    font-size: 1.3rem;
+    color: rgb(209, 113, 3);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.far {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .far{
+        margin: auto;
+        width: 100%;
+        display: block;
+
+      
+    }
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    i{
+        display: block;
+        margin: auto;
+        text-align: center;      
+    }
+  }
+.circle {
+    padding-top: 13px;
+    width: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+    .right-col-serv{
+        margin-top: 0;
+
+      
+    }
+  }
+  .carousel-control-prev {
+    transition: 0.2s ease;
+  }
+
+  .carousel-control-prev:hover {
+    background: rgb(119,119,119);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.493) 0%, rgba(0,0,0,0) 100%); 
+    transition: 0.2s ease;
+  }
+
+  .carousel-control-next {
+    transition: 0.2s ease;
+  }
+
+  .carousel-control-next:hover {
+    background: rgb(119,119,119);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.5) 0%, rgba(0,0,0,0) 100%); 
+    transition: 0.2s ease;
+  }
+
+  .location-footer {
+      padding-left: 35px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .location-footer{
+        padding-left: 0;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+      
+    }
+  }
+
+  .footer-section {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
